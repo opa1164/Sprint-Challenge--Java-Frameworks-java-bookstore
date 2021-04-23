@@ -117,18 +117,4 @@ public class Book
     {
         this.wrotes = wrotes;
     }
-
-    @Override
-    public String toString()
-    {
-        return "Book{" +
-            "bookid=" + bookid +
-            ", title='" + title + '\'' +
-            ", isbn='" + isbn + '\'' +
-            ", hasvalueforcopy=" + hasvalueforcopy +
-            ", copy=" + copy +
-            ", section=" + section +
-            ", wrotes=" + wrotes +
-            '}';
-    }
 }
